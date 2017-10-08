@@ -1,0 +1,14 @@
+\begin{table}[H]
+\centering
+\caption{Enhanced first order optimizers used for DLNs}
+\label{tb-optimizers}
+\scriptsize
+\begin{tabular}{@{}p{2cm}p{8cm}p{2.5cm}@{}}
+\toprule
+\textbf{Optimizer} & \textbf{Description Summary} & \textbf{Source} \\ \midrule
+AdaGrad & Divides the learning rate, $\alpha$, by the $L_{2}$ norm, slowing down learning that changed significantly. & Duchi (2011) \\
+RMSProp & Divides gradient by a running average of its reecnt magnitude & Tieleman (2012) \\
+Adam & Combines CM with RMSProp & Kingma (2014) \\
+Nadam & Combines NAG with RMSProp & Dozat (2016) \\ \bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,34 @@
+\begin{table}[H]
+\centering
+\caption{ANN prediction errors for stations and event durations for a. training with all input variables and b. reduced input variables}
+\label{tb:ANNresults}
+\begin{tabular}{ccccc}
+\multicolumn{5}{l}{a. Full input variables.}\\                                                    
+\hline
+\multicolumn{2}{c}{\textbf{Prediction}}         & \multicolumn{3}{c}{\textbf{Prediction Error}} \\
+\textbf{Time (hrs)}         & \textbf{Duration} & \textbf{FAH}  & \textbf{JAR}  & \textbf{MAN}  \\ \hline
+1                           & 1 hr              & 2.35\%        & 6.26\%        & 6.90\%        \\
+1                           & Short             & 2.25\%        & 4.26\%        & 5.89\%        \\
+1                           & Long              & 0.17\%        & 2.51\%        & 2.64\%        \\ \hline
+24                          & 1 hr              & 3.44\%        & 6.95\%        & 8.06\%        \\
+24                          & Short             & 2.14\%        & 4.44\%        & 6.50\%        \\
+24                          & Long              & 0.64\%        & 2.47\%        & 2.50\%        \\ \hline
+48                          & 1 hr              & 2.57\%        & 7.03\%        & 7.97\%        \\
+48                          & Short             & 2.31\%        & 4.48\%        & 5.85\%        \\
+48                          & Long              & 0.41\%        & 2.45\%        & 2.50\%        \\ \hline
+                            &                   &               &               &               \\
+b. Reduced input variables. &                   &               &               &               \\
+\multicolumn{2}{l}{\textbf{Prediction}}         & \multicolumn{3}{l}{\textbf{Prediction Error}} \\
+\textbf{Time (hrs)}         & \textbf{Duration} & \textbf{FAH}  & \textbf{JAR}  & \textbf{MAN}  \\ \hline
+1                           & 1 hr              & 3.04\%        & 6.53\%        & 7.23\%        \\
+1                           & Short             & 2.57\%        & 4.38\%        & 5.49\%        \\
+1                           & Long              & 0.46\%        & 2.67\%        & 3.94\%        \\ \hline
+24                          & 1 hr              & 4.41\%        & 6.96\%        & 7.39\%        \\
+24                          & Short             & 2.15\%        & 4.41\%        & 5.12\%        \\
+24                          & Long              & 0.51\%        & 2.47\%        & 2.54\%        \\ \hline
+48                          & 1 hr              & 2.58\%        & 6.87\%        & 7.69\%        \\
+48                          & Short             & 2.21\%        & 4.35\%        & 5.58\%        \\
+48                          & Long              & 0.20\%        & 2.45\%        & 2.50\%  \\ \hline
+   
+\end{tabular}
+\end{table}

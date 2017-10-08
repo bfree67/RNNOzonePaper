@@ -1,0 +1,36 @@
+\begin{table}[H]
+\centering
+\caption{Summary of input parameters and model outputs.}
+\label{tb:InputSummary}
+\begin{tabular}{@{}ccc@{}}
+\toprule
+\textbf{Full Inputs} & \textbf{Reduced Inputs} & \textbf{Outputs}                 \\ \midrule
+Hour                 & Hour                    & FAH 1 hr Prediction-1 hr Event   \\    
+FAH-WD               & FAH-WD                  & FAH 1 hr Prediction-Short Event  \\
+JAR-WD               & JAR-WD                  & FAH 1 hr Prediction-Long Event   \\
+MAN-WD               & MAN-WD                  & FAH 24 hr Prediction-1 hr Event  \\
+FAH-RH (\%)          & FAH-RH (\%)             & FAH 24 hr Prediction-Short Event \\
+FAH-TEMP (\textsuperscript{o}C)        & FAH-WS (m/s)            & FAH 24 hr Prediction-Long Event  \\
+FAH-WS (m/s)         & JAR-RH (\%)             & FAH 48 hr Prediction-1 hr Event  \\
+JAR-RH (\%)          & JAR-WS (m/s)            & FAH 48 hr Prediction-Short Event \\
+JAR-TEMP (\textsuperscript{o}C)        & MAN-WS (m/s)            & FAH 48 hr Prediction-Long Event  \\
+JAR-WS (m/s)         & FAH-O\textsubscript{3}                  & JAR 1 hr Prediction-1 hr Event   \\
+MAN-RH (\%)          & JAR-O\textsubscript{3}                  & JAR 1 hr Prediction-Short Event  \\
+MAN-TEMP (\textsuperscript{o}C)        & MAN-O\textsubscript{3}                  & JAR 1 hr Prediction-Long Event   \\
+MAN-WS (m/s)         & FAH-SO\textsubscript{2}                 & JAR 24 hr Prediction-1 hr Event  \\
+FAH-O\textsubscript{3}               & JAR-SO\textsubscript{2}                 & JAR 24 hr Prediction-Short Event \\
+JAR-O\textsubscript{3}               & MAN-SO\textsubscript{2}                & JAR 24 hr Prediction-Long Event  \\
+MAN-O\textsubscript{3}               & FAH-NO\textsubscript{2}                 & JAR 48 hr Prediction-1 hr Event  \\
+FAH-SO\textsubscript{2}              & JAR-NO\textsubscript{2}                 & JAR 48 hr Prediction-Short Event \\
+JAR-SO\textsubscript{2}              & MAN-NO\textsubscript{2}                 & JAR 48 hr Prediction-Long Event  \\
+MAN-SO\textsubscript{2}              & FAH-CO                  & MAN 1 hr Prediction-1 hr Event   \\
+FAH-NO\textsubscript{2}              & JAR-CO                  & MAN 1 hr Prediction-Short Event  \\
+JAR-NO\textsubscript{2}              &                       & MAN 1 hr Prediction-Long Event   \\
+MAN-NO\textsubscript{2}              &                        & MAN 24 hr Prediction-1 hr Event  \\
+FAH-CO               &                        & MAN 24 hr Prediction-Short Event \\  
+JAR-CO               &                       & MAN 24 hr Prediction-Long Event  \\
+MAN-CO               &                       & MAN 48 hr Prediction-1 hr Event  \\
+                &                      & MAN 48 hr Prediction-Short Event \\
+                  &                       & MAN 48 hr Prediction-Long Event  \\ \bottomrule
+\end{tabular}
+\end{table}
